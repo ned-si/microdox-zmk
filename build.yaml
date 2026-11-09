@@ -1,0 +1,8 @@
+# Targets built by the GitHub Actions workflow; each one becomes a .uf2 in the
+# "firmware" artifact.
+---
+include:
+  - board: nice_nano
+    shield: microdox_left
+  - board: nice_nano
+    shield: microdox_right
