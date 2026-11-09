@@ -2,8 +2,10 @@
 #define MAIN 0
 #define SYM 1
 #define NUM 2
-#define ACC 3
-#define NAV 4
+#define NAV 3
+// The accents layer is commented out in microdox.keymap; ACC is only used by
+// the HM_G / HM_H macros, which the keymap does not use.
+#define ACC 4
 
 //homerow
 #define HM_A &hm_asemi LGUI A
@@ -18,8 +20,8 @@
 #define HM_H &hm_gh ACC H
 
 //bluetooth
-#define BT0 &bt BT_SEL 0 
-#define BT1 &bt BT_SEL 1 
-#define BT2 &bt BT_SEL 2 
-#define BT3 &bt BT_SEL 3 
-#define BT4 &bt BT_SEL 4 
+#define BT0 &bt BT_SEL 0
+#define BT1 &bt BT_SEL 1
+#define BT2 &bt BT_SEL 2
+#define BT3 &bt BT_SEL 3
+#define BT4 &bt BT_SEL 4
